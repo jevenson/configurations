@@ -7,6 +7,6 @@
         "**/*.js": {"when": "$(basename).ts"},
         "node_modules": true
     },
-    "editor.renderWhitespace": true,
+    "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true
 }
