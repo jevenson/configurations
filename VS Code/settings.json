@@ -8,5 +8,6 @@
         "node_modules": true
     },
     "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace": true
 }
