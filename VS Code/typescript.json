@@ -1,0 +1,21 @@
+{
+    "NativeScript Component": {
+        "prefix": "tns-component",
+        "body": [
+            "import { Component } from '@angular/core';",
+            "",
+            "@Component({",
+                "\tmoduleId: module.id,",
+                "\tselector: '${1:selector}-component',",
+                "\tstyleUrls: [",
+                    "\t\t'./${1:selector}-component.css',",
+                    "\t\t'./${1:selector}-component.shared.css'",
+                "\t],",
+                "\ttemplateUrl: '${1:selector}-component.html'",
+            "})",
+            "export class ${2:Name}Component { }",
+            ""
+        ],
+        "description": "A basic component for NativeScript supporting a shared style file"
+    }
+}
