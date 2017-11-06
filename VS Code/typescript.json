@@ -6,16 +6,23 @@
             "",
             "@Component({",
                 "\tmoduleId: module.id,",
-                "\tselector: '${1:selector}-component',",
+                "\tselector: '${1:selector}',",
                 "\tstyleUrls: [",
-                    "\t\t'./${1:selector}-component.css',",
-                    "\t\t'./${1:selector}-component.shared.css'",
+                    "\t\t'./${1:selector}.component.css',",
+                    "\t\t'./${1:selector}.component.shared.css'",
                 "\t],",
-                "\ttemplateUrl: '${1:selector}-component.html'",
+                "\ttemplateUrl: '${1:selector}.component.html'",
             "})",
             "export class ${2:Name}Component { }",
             ""
         ],
         "description": "A basic component for NativeScript supporting a shared style file"
+    },
+    "TypeScript Import": {
+        "prefix": "import",
+        "body": [
+            "import { ${2:Module} } from './${1:module-path}';"
+        ],
+        "description": "Import statement"
     }
 }
