@@ -24,5 +24,19 @@
             "import { ${2:Module} } from './${1:module-path}';"
         ],
         "description": "Import statement"
+    },
+    "Jasmine Text": {
+        "prefix": "test",
+        "body": [
+            "it('${1:TestName}', () => {",
+            "\t// Arrange",
+            "",
+            "\t// Act",
+            "",
+            "\t// Assert",
+            "",
+            "});"
+        ],
+        "description": "Jasmine Unit Test"
     }
 }
