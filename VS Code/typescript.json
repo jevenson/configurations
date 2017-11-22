@@ -25,7 +25,7 @@
         ],
         "description": "Import statement"
     },
-    "Jasmine Text": {
+    "Jasmine Test": {
         "prefix": "test",
         "body": [
             "it('${1:TestName}', () => {",
