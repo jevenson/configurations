@@ -11,7 +11,7 @@
     "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    "workbench.panel.location": "bottom",
+    "workbench.panel.defaultLocation": "bottom",
     "git.decorations.enabled": false,
     "typescript.autoImportSuggestions.enabled": false
 }
