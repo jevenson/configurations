@@ -13,5 +13,5 @@
     "window.zoomLevel": 0,
     "workbench.panel.defaultLocation": "bottom",
     "git.decorations.enabled": false,
-    "typescript.autoImportSuggestions.enabled": false
+    "typescript.suggest.autoImports": false
 }
