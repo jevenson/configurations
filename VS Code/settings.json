@@ -10,8 +10,28 @@
     "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "[mdx]": {
+        "files.trimTrailingWhitespace": false
+    },
     "window.zoomLevel": 0,
-    "workbench.panel.defaultLocation": "bottom",
     "git.decorations.enabled": false,
-    "typescript.suggest.autoImports": false
+    "nativescript.analytics.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "extensions.autoUpdate": false,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.activityBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Horizon",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.cursorSmoothCaretAnimation": true,
+    "html.format.wrapLineLength": 0,
+    "workbench.colorCustomizations": {
+        "sideBar.border": "#80808059",
+        "editorGroup.border": "#80808059",
+        "statusBar.border": "#80808059"
+    }
 }
