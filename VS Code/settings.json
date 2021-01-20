@@ -24,14 +24,20 @@
     "typescript.preferences.importModuleSpecifier": "relative",
     "typescript.preferences.quoteStyle": "single",
     "workbench.activityBar.visible": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "breadcrumbs.enabled": false,
     "workbench.colorTheme": "Horizon",
     "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
     "editor.cursorSmoothCaretAnimation": true,
     "html.format.wrapLineLength": 0,
     "workbench.colorCustomizations": {
         "sideBar.border": "#80808059",
         "editorGroup.border": "#80808059",
         "statusBar.border": "#80808059"
-    }
+    },
+    "editor.accessibilitySupport": "off",
+    "files.eol": "\n"
 }
